@@ -10,7 +10,7 @@ test('kitchenPage', async({page})=>
     await expect.soft(page.locator('text=The Kitchen')).toBeHidden()
 
     await expect(page.locator('text=The Kitchen')).toHaveAttribute('class','chakra-heading css-dpmy2a')
-    await page.pause()
+    
 
     
    
