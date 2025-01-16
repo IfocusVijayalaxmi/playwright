@@ -1,16 +1,13 @@
-import{test,expected} from '@playwright/test'
+import {test,expect} from '@playwright/test' 
 
-test('selector', async({page})=>
+test('First', async({page})=>
 {
 
-    await page.goto('https://www.saucedemo.com/')
-    await page.pause()
-    // await page.click('id=user-name')
-    await page.locator('[name="user-name"]').fill('name')
-    // await page.locator('text=LOGIN').click()
-    await page.locator('input:has-text("LOGIN")').click()
+await page.goto('https://www.youtube.com/watch?v=FZ5NlP1hL9A')
+}
+)
 
-    // await page.pause()
-    
-
-});
+test ('First1',async({page})=>
+{
+    await page.goto('https://www.google.com')
+})
