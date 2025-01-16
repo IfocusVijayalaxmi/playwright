@@ -17,9 +17,8 @@ test('DrishitLoginTest', async({page})=>{
 
 }
 )
-test.af
 
-test.only('DrishitLoginTest1', async({page})=>{
+test('DrishitLoginTest1', async({page})=>{
 
 
     // await page.pause()
